@@ -10,6 +10,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        navy: "#001F3F", // Deep navy blue
+        cream: "#FAF3E0", // Soft crea
+        gold: "#C9A227", // Elegant gold for accents
+        charcoal: "#2E2E2E", // Dark charcoal for contrast
+        lightGray: "#E5E5E5", // Soft light gray for subtle backgrounds
+        deepBlue: "#003366", // Rich deep blue, slightly different from navy
+        warmWhite: "#FFF8E7", // Slightly warm white for backgrounds
       },
     },
   },
