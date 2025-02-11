@@ -19,13 +19,37 @@ export default function HomePage() {
         </ul>
       </nav>
       
-      {/* Hero Section */}
-      <header className="h-screen flex flex-col justify-center items-center text-center px-4 bg-navy text-cream">
+      {/* Hero Section
+      <header className="h-screen flex flex-col justify-center items-center text-center px-4 bg-navy text-cream bg-[url('/home_bg.png')] bg-cover bg-center bg-no-repeat">
+        <div className="absolute inset-0 backdrop-blur-sm"></div> 
         <h2 className="text-5xl font-extrabold mb-4 animate-fade-in">Welcome to Jai Sarda Group</h2>
         <p className="text-xl mb-6 max-w-2xl">We provide exceptional services to help grow your business with innovation and expertise.</p>
         <Link href="/about" className="bg-cyan-400 text-blue-900 px-6 py-3 rounded-full shadow-lg hover:bg-cyan-300 transition-all">Learn More</Link>
-      </header>
+      </header> */}
       
+      <header className="relative h-screen flex flex-col items-center text-center px-4 text-cream">
+        
+        {/* Blurred Background Image */}
+        <div 
+          className="absolute inset-0 bg-[url('/home_bg.png')] bg-cover bg-center bg-no-repeat 
+          backdrop-blur-md"
+        ></div>
+        {/* Content */}
+        <div className="relative z-10 w-full flex flex-col items-center">
+          <h2 className="mt-10 text-5xl font-extrabold animate-fade-in"> 
+            Welcome to
+          </h2>
+          {/* <p className="text-xl mb-6 max-w-2xl">
+            We provide exceptional services to help grow your business with innovation and expertise.
+          </p> */}
+          {/* <Link href="/about" className="bg-cyan-400 text-blue-900 px-6 py-3 rounded-full shadow-lg hover:bg-cyan-300 transition-all">
+            Learn More
+          </Link> */}
+        </div>
+
+      </header>
+
+
       {/* About Us Section (Still on Home Page) */}
       <section id="about" className="min-h-[60vh] py-20 text-center bg-gray-200 flex flex-col justify-center items-center shadow-md rounded-xl mx-4 my-6 p-6 animate-fade-in transition-all">
         <h2 className="text-4xl font-bold mb-4 text-blue-900">About Us</h2>

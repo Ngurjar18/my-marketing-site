@@ -58,7 +58,7 @@ export default function AboutUs() {
   
         {/* Main Content */}
         <div className="py-28 px-6">
-          <h1 className="text-5xl font-extrabold text-center text-blue-900 mb-6">About Us</h1>
+          <h1 className="text-5xl font-extrabold text-center text-navy mb-6">About Us</h1>
           
           {/* New Introduction Paragraph */}
           <p className="text-lg text-center text-gray-700 max-w-4xl mx-auto mb-12">
@@ -76,8 +76,8 @@ export default function AboutUs() {
                 <Image src={section.image} alt={section.title} width={400} height={300} className="rounded-lg md:w-2/5" />
   
                 {/* Text Section with increased width */}
-                <div className={`w-full md:w-3/5 ${index % 2 === 0 ? 'text-left md:text-center' : 'text-right md:text-center'}`}>
-                  <h2 className="text-3xl font-bold text-blue-900 mb-4">{section.title}</h2>
+                <div className={`w-full md:w-3/5 space-y-4 ${index % 2 === 0 ? 'text-left md:text-center' : 'text-right md:text-center'}`}>
+                  <h2 className="text-3xl font-bold text-navy mb-4">{section.title}</h2>
                   {section.text.map((paragraph, i) => (
                     <p key={i} className="text-lg text-gray-700 mb-4">{paragraph}</p>
                   ))}

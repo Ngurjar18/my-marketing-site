@@ -28,7 +28,7 @@ export default function Navbar() {
       <ul className="flex space-x-6 text-lg text-white">
         <li><Link href="/" className="hover:text-cyan-400 transition-all">Home</Link></li>
         <li><Link href="/about" className="hover:text-cyan-400 transition-all">About Us</Link></li>
-        <li><Link href="/business" className="hover:text-cyan-400 transition-all">Our Business</Link></li>
+        <li><Link href="/business" className="hover:text-cyan-400 transition-all">Our Businesses</Link></li>
         <li><Link href="/CSR" className="hover:text-cyan-400 transition-all">CSR</Link></li>
         <li><Link href="/contact" className="hover:text-cyan-400 transition-all">Contact</Link></li>
       </ul>
