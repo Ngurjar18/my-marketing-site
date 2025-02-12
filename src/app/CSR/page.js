@@ -73,6 +73,11 @@ export default function CSR() {
             ))}
           </div>
         </div>
-      </div>
+      {/* Footer */}
+      <footer className="py-6 text-center bg-navy text-white shadow-inner">
+        <p>&copy; 2019 - 25 Jai Sarda Group. All rights reserved.</p>
+      </footer>
+    </div>
+      
     );
   }

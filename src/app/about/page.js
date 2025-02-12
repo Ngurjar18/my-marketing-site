@@ -13,7 +13,7 @@ const sections = [
   },
   {
     title: "Expanding Horizons",
-    image: "/about_us2.png",
+    image: "/abt_us_exp.jpg",
     text: ["With our success in the first Raymond store, we were determined to keep growing and offering more to our customers. In 1985, we opened another Raymond shop, this time in the heart of the city, continuing to build our reputation for high-quality apparel. The city of Kota, with its expanding business opportunities and evolving demand for quality garments, was the ideal setting to further cement our position as a leader in the local apparel market.",
     "In 2000, we took a bold step and diversified into ethnic wear by partnering with Manyavar, one of the country’s most respected names in traditional fashion. We opened a Manyavar shop in Kota, bringing premium ethnic clothing to the region. This move was not only about meeting the growing demand for ethnic wear but also about adding depth to our portfolio, offering our customers a diverse range of choices for various occasions—from weddings and festivals to casual outings and celebrations."
     ],
@@ -61,7 +61,7 @@ export default function AboutUs() {
           <h1 className="text-5xl font-extrabold text-center text-navy mb-6">About Us</h1>
           
           {/* New Introduction Paragraph */}
-          <p className="text-lg text-center text-gray-700 max-w-4xl mx-auto mb-12">
+          <p className="text-lg text-center text-gray-700 max-w-7xl mx-auto mb-12">
           The story of Jai Sarda Group is one of ambition, growth, and transformation—a journey that began in a small village in Rajasthan called Chaumela. From humble beginnings, we’ve steadily built a legacy of excellence across various sectors, from apparel and manufacturing to strategic investments and sustainable practices. Our evolution is rooted in a deep sense of entrepreneurship, a commitment to quality, and a drive to create long-term value for our customers, stakeholders, and the communities we serve.
           </p>
   
@@ -86,6 +86,10 @@ export default function AboutUs() {
             ))}
           </div>
         </div>
+          {/* Footer */}  
+          <footer className="py-6 text-center bg-navy text-white shadow-inner">
+            <p>&copy; 2019 - 25 Jai Sarda Group. All rights reserved.</p>
+          </footer>
       </div>
     );
   }

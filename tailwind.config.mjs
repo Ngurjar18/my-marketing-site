@@ -17,7 +17,12 @@ export default {
         lightGray: "#E5E5E5", // Soft light gray for subtle backgrounds
         deepBlue: "#003366", // Rich deep blue, slightly different from navy
         warmWhite: "#FFF8E7", // Slightly warm white for backgrounds
+        skyBlue: "#ADE1FB", // Soft sky blue for accents
+        yellow: "#FFD500", 
       },
+      fontFamily: {
+        futurist: ['FuturistFixedWidth', 'sans-serif'],
+      }
     },
   },
   plugins: [],

@@ -6,14 +6,16 @@ import Navbar from "@/components/Navbar";
 const businesses = [
   { 
     id: "Apparel Division", 
-    title: "Apparel Division", 
+    title: "Apparel Division",
+    image: "/Bussines_1.jpg", // <-- Custom Image 
     sections: [
       {
         text: [
           "Our Legacy and Expertise",
           "Our apparel division focuses on providing high-quality business wear, ethnic wear, and casual wear for the modern individual. We partner with renowned brands like Raymond and Manyavar, offering their premium collections that reflect the perfect blend of tradition, sophistication, and contemporary style. Whether it's formal business attire, elegant ethnic wear for cultural celebrations, or comfortable casual clothing, we deliver timeless fashion that meets the diverse needs of our customers.",
           "In addition to retail offerings, we operate a dedicated production facility that manufactures suiting fabrics tailored for corporate clients. This facility is equipped with advanced technology and skilled artisans to ensure that every fabric meets the highest standards of quality, offering businesses bespoke solutions for their workforce or retail lines.",
-          "We are equipped to meet the demands of top brands and corporate clients worldwide, providing premium suiting materials that are tailored for the professional sector. Our extensive production capacity ensures that we can offer bulk quantities of high-quality suiting fabrics, meeting the diverse needs of businesses and enterprises."
+          "We are equipped to meet the demands of top brands and corporate clients worldwide, providing premium suiting materials that are tailored for the professional sector."
+          // "Our extensive production capacity ensures that we can offer bulk quantities of high-quality suiting fabrics, meeting the diverse needs of businesses and enterprises."
         ],
         image: "/apparel_1.jpg"
       },
@@ -53,7 +55,7 @@ const businesses = [
           "- Advanced Manufacturing: Equipped with state-of-the-art machinery and technology for large-scale, high-quality production.",
           "- Quality Assurance: Stringent quality control processes that ensure every product meets global standards.",
           "- Customer-Focused: A deep commitment to customer satisfaction, delivering tailored solutions and on-time deliveries.",
-          "Extensive Distribution Network: Efficient, reliable distribution channels ensuring timely deliveries to clients both in India and internationally.",
+          "- Extensive Distribution Network: Efficient, reliable distribution channels ensuring timely deliveries to clients both in India and internationally.",
           "At Jai Sarda Group, we are committed to innovation, quality, and customer satisfaction. Our expertise in suiting materials and our dedication to excellence have allowed us to build long-lasting partnerships with clients across various sectors. We are proud of our legacy and excited for the future as we continue to innovate and expand, delivering world-class products that meet the evolving needs of the corporate world."
         ],
         image: "/WHY_US.png"
@@ -63,6 +65,7 @@ const businesses = [
   { 
     id: "Battery Recycling Division", 
     title: "Battery Recycling Division", 
+    image: "/Bussines_2.jpg",
     sections: [
       {
         text: [
@@ -78,7 +81,7 @@ const businesses = [
           "The Solution",
           "At Jai Sarda Group, we are accelerating the shift towards a sustainable energy ecosystem through lithium-ion battery recycling. We envision a world where the lifecycle of battery materials is maximized through recycling, repurposing, and low-carbon refining, creating a closed-loop supply chain that reduces waste, lowers costs, and enhances energy security.",
           "Our focus is on building a zero-waste battery materials supply chain. Through the recovery and repurposing of critical raw materials such as lithium, cobalt, and nickel, we can reduce the need for mining and the environmental degradation that comes with it. By recycling used batteries, we aim to lower the overall battery costs, making clean energy storage solutions more affordable and accessible to the masses.",
-          "At Jai Sarda Group, we are not just participating in the energy transition—we are driving it. We are committed to responsible recycling practices, ensuring that every battery we process contributes to a cleaner, more sustainable future. By offering lithium-ion battery recycling solutions, we are helping to bridge the gap between energy demand and environmental responsibility, ensuring a steady supply of critical materials needed to power the renewable energy revolution."
+          // "At Jai Sarda Group, we are not just participating in the energy transition—we are driving it. We are committed to responsible recycling practices, ensuring that every battery we process contributes to a cleaner, more sustainable future. By offering lithium-ion battery recycling solutions, we are helping to bridge the gap between energy demand and environmental responsibility, ensuring a steady supply of critical materials needed to power the renewable energy revolution."
         ],
         image: "/battery_2.jpg"
       },
@@ -99,6 +102,7 @@ const businesses = [
   { 
     id: "Investment Division", 
     title: "Investment Division", 
+    image: "/Bussines_3.jpg",
     sections: [
       {
         text: [
@@ -140,9 +144,30 @@ export default function OurBusiness() {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
       <Navbar />
-      <h1 className="text-5xl font-extrabold text-center backdrop-blur-md text-navy py-24 px-6">Our Businesses</h1>
+      <h1 className="text-5xl font-extrabold text-center backdrop-blur-md text-navy py-16 px-6 mt-24">Our Businesses</h1>
       
-      {/* Business Navigation Tiles */}
+      <div className="flex justify-center gap-9 mt-1 mb-20">
+        {businesses.map((business) => (
+          <div 
+            key={business.id} 
+            className="cursor-pointer bg-white shadow-lg p-4 rounded-lg transition-transform transform hover:scale-105 text-center w-[350px] h-[350px] flex flex-col items-center"
+            onClick={() => document.getElementById(business.id).scrollIntoView({ behavior: 'smooth' })}
+          >
+            <div className="w-full h-[350px] flex items-center justify-center">
+              <Image 
+                src={business.image}  // <-- Custom image per business
+                alt={business.title} 
+                width={300} 
+                height={300} 
+                className="rounded-lg object-cover aspect-square"
+              />
+            </div>
+            {/* <h2 className="text-xl font-bold mt-2">{business.title}</h2> */}
+          </div>
+        ))}
+      </div>
+
+            {/* Business Navigation Tiles
       <div className="flex justify-center gap-6 mb-12">
         {businesses.map((business) => (
           <div 
@@ -154,13 +179,14 @@ export default function OurBusiness() {
             <h2 className="text-xl font-bold mt-2">{business.title}</h2>
           </div>
         ))}
-      </div>
+      </div> */}
+      {/* Business Navigation Tiles */}
       
       {/* Business Sections */}
       <div className="space-y-16">
         {businesses.map((business) => (
-          <div key={business.id} id={business.id} className="bg-white p-6 rounded-lg shadow-lg">
-            <h2 className="text-3xl font-bold text-navy mb-4 text-center">{business.title}</h2>
+          <div key={business.id} id={business.id} className="scroll-mt-24 bg-white p-6 rounded-lg shadow-lg">
+            <h2 className="text-5xl font-bold text-navy mb-4 text-center">{business.title}</h2>
 
             {business.sections.map((section, i) => (
               <div key={i} className={`flex ${i % 2 === 0 ? 'flex-row' : 'flex-row-reverse'} items-center gap-6 mb-6`}>
@@ -178,6 +204,10 @@ export default function OurBusiness() {
           </div>
         ))}
       </div>
+        {/* Footer */}
+        <footer className="py-6 text-center bg-navy text-white shadow-inner">
+        <p>&copy; 2019 - 25 Jai Sarda Group. All rights reserved.</p>
+        </footer>
     </div>
   );
 }
