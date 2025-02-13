@@ -14,7 +14,7 @@ const businesses = [
           "Our Legacy and Expertise",
           "Our apparel division focuses on providing high-quality business wear, ethnic wear, and casual wear for the modern individual. We partner with renowned brands like Raymond and Manyavar, offering their premium collections that reflect the perfect blend of tradition, sophistication, and contemporary style. Whether it's formal business attire, elegant ethnic wear for cultural celebrations, or comfortable casual clothing, we deliver timeless fashion that meets the diverse needs of our customers.",
           "In addition to retail offerings, we operate a dedicated production facility that manufactures suiting fabrics tailored for corporate clients. This facility is equipped with advanced technology and skilled artisans to ensure that every fabric meets the highest standards of quality, offering businesses bespoke solutions for their workforce or retail lines.",
-          "We are equipped to meet the demands of top brands and corporate clients worldwide, providing premium suiting materials that are tailored for the professional sector."
+          // "We are equipped to meet the demands of top brands and corporate clients worldwide, providing premium suiting materials that are tailored for the professional sector."
           // "Our extensive production capacity ensures that we can offer bulk quantities of high-quality suiting fabrics, meeting the diverse needs of businesses and enterprises."
         ],
         image: "/apparel_1.jpg"
@@ -35,8 +35,8 @@ const businesses = [
           "With an annual production capacity that includes:",
           "- 450 tons of yarn per day",
           "- 350,000 meters of fabric per day",
-          "- 150 tons of fiber per day",
-          "- 10,000 kg of woolen yarn per day"
+          // "- 150 tons of fiber per day",
+          // "- 10,000 kg of woolen yarn per day"
         ],
         image: "/apparel_3.webp"
       },
@@ -56,7 +56,7 @@ const businesses = [
           "- Quality Assurance: Stringent quality control processes that ensure every product meets global standards.",
           "- Customer-Focused: A deep commitment to customer satisfaction, delivering tailored solutions and on-time deliveries.",
           "- Extensive Distribution Network: Efficient, reliable distribution channels ensuring timely deliveries to clients both in India and internationally.",
-          "At Jai Sarda Group, we are committed to innovation, quality, and customer satisfaction. Our expertise in suiting materials and our dedication to excellence have allowed us to build long-lasting partnerships with clients across various sectors. We are proud of our legacy and excited for the future as we continue to innovate and expand, delivering world-class products that meet the evolving needs of the corporate world."
+          // "At Jai Sarda Group, we are committed to innovation, quality, and customer satisfaction. Our expertise in suiting materials and our dedication to excellence have allowed us to build long-lasting partnerships with clients across various sectors. We are proud of our legacy and excited for the future as we continue to innovate and expand, delivering world-class products that meet the evolving needs of the corporate world."
         ],
         image: "/WHY_US.png"
       }
@@ -72,7 +72,7 @@ const businesses = [
           "The Challenge",
           "The climate crisis is no longer a distant threat—it is happening right now. With rising temperatures, erratic weather patterns, and increasing natural disasters like droughts, floods, and hurricanes, the world is facing an urgent need for sustainable solutions. At the heart of the solution lies the shift away from fossil fuels toward cleaner, renewable energy sources. A key enabler of this transformation is lithium-ion battery recycling.",
           "As the demand for clean energy intensifies, the need to secure the raw materials for energy storage solutions becomes critical. Lithium-ion batteries are at the core of energy storage technologies, from electric vehicles (EVs) to grid-scale storage systems. However, as we rely more on these batteries, the dependency on mining for raw materials like lithium, cobalt, and nickel also grows—creating an environmental and ethical challenge.",
-          "At Jai Sarda Group, we are dedicated to addressing this issue head-on. By focusing on lithium-ion battery recycling, we aim to play a pivotal role in reducing reliance on mining, contributing to energy security, and driving the global transition to a sustainable, circular economy."
+          // "At Jai Sarda Group, we are dedicated to addressing this issue head-on. By focusing on lithium-ion battery recycling, we aim to play a pivotal role in reducing reliance on mining, contributing to energy security, and driving the global transition to a sustainable, circular economy."
         ],
         image: "/battery_1.webp"
       },
@@ -92,8 +92,8 @@ const businesses = [
           "- Cutting-Edge Technology: Our state-of-the-art battery recycling facility is equipped with the latest technology, ensuring high-efficiency recovery and minimal environmental impact.",
           "Circular Economy: We are building a sustainable, zero-waste ecosystem, reducing costs, and promoting responsible, ethical sourcing of battery materials.",
           "- Global Impact: As part of the growing movement toward a climate-conscious energy future, our solutions help reduce the carbon footprint of energy storage technologies and support industries striving for net-zero emissions.",
-          "At Jai Sarda Group, our mission is to create a sustainable energy future by advancing the recycling and repurposing of lithium-ion batteries. Through our efforts, we are not only contributing to the growth of clean energy technology but also ensuring that the materials powering the future are sourced responsibly and sustainably.",
-          "Join us in our mission to build a cleaner, greener, and more secure world through lithium-ion battery recycling."
+          // "At Jai Sarda Group, our mission is to create a sustainable energy future by advancing the recycling and repurposing of lithium-ion batteries. Through our efforts, we are not only contributing to the growth of clean energy technology but also ensuring that the materials powering the future are sourced responsibly and sustainably.",
+          // "Join us in our mission to build a cleaner, greener, and more secure world through lithium-ion battery recycling."
         ],
         image: "/WHY_US.png"
       }
