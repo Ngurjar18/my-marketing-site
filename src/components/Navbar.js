@@ -26,11 +26,11 @@ export default function Navbar() {
         <h1 className="text-2xl font-extrabold text-white font-futurist">JAI SARDA GROUP</h1>
       </div>
       <ul className="flex space-x-6 text-lg text-white">
-        <li><Link href="/" className="hover:text-yellow transition-all">Home</Link></li>
-        <li><Link href="/about" className="hover:text-yellow transition-all">About Us</Link></li>
-        <li><Link href="/business" className="hover:text-yellow transition-all">Our Businesses</Link></li>
-        <li><Link href="/CSR" className="hover:text-yellow transition-all">CSR</Link></li>
-        <li><Link href="/contact" className="hover:text-yellow transition-all">Contact</Link></li>
+        <li><Link href="/" className="hover:text-lbrown transition-all">Home</Link></li>
+        <li><Link href="/about" className="hover:text-lbrown transition-all">About Us</Link></li>
+        <li><Link href="/business" className="hover:text-lbrown transition-all">Our Businesses</Link></li>
+        <li><Link href="/CSR" className="hover:text-lbrown transition-all">CSR</Link></li>
+        <li><Link href="/contact" className="hover:text-lbrown transition-all">Contact</Link></li>
       </ul>
     </nav>
   );

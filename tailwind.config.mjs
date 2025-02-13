@@ -19,6 +19,7 @@ export default {
         warmWhite: "#FFF8E7", // Slightly warm white for backgrounds
         skyBlue: "#ADE1FB", // Soft sky blue for accents
         yellow: "#FFD500", 
+        lbrown: "#9a7b4f",
       },
       fontFamily: {
         futurist: ['FuturistFixedWidth', 'sans-serif'],

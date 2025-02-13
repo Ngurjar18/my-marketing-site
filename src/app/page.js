@@ -34,10 +34,10 @@ export default function HomePage() {
         <ul className="flex space-x-6 text-lg text-white">
 
           {/* <li><Link href="/" className="hover:text-cyan-400 transition-all">Home</Link></li> */}
-          <li><Link href="/about" className="hover:text-yellow transition-all">About Us</Link></li>
-          <li><Link href="/business" className="hover:text-yellow transition-all">Our Businesses</Link></li>
-          <li><Link href="/CSR" className="hover:text-yellow transition-all">CSR</Link></li>
-          <li><Link href="/contact" className="hover:text-yellow transition-all">Contact</Link></li>
+          <li><Link href="/about" className="hover:text-lbrown transition-all">About Us</Link></li>
+          <li><Link href="/business" className="hover:text-lbrown transition-all">Our Businesses</Link></li>
+          <li><Link href="/CSR" className="hover:text-lbrown transition-all">CSR</Link></li>
+          <li><Link href="/contact" className="hover:text-lbrown transition-all">Contact</Link></li>
         </ul>
       </nav>
       
@@ -78,7 +78,7 @@ export default function HomePage() {
         <p className="text-lg text-gray-700 max-w-7xl">At Jai Sarda Group, we are driven by a shared vision to create value across multiple industries through innovation, sustainability, and growth. With diversified interests in apparel, battery recycling, and strategic investments, we have established ourselves as a multi-faceted group that believes in making a positive impact on society while delivering excellence in every sector we engage with.</p>
           {/* Know More Button */}
         <Link href="/about">
-          <button className="mt-4 bg-navy text-white px-6 py-3 rounded-lg shadow-lg hover:bg-yellow transition-all">
+          <button className="mt-4 bg-navy text-white px-6 py-3 rounded-lg shadow-lg hover:bg-lbrown transition-all">
             Know More
           </button>
         </Link>
@@ -126,7 +126,7 @@ export default function HomePage() {
         <p className="text-lg text-gray-700 max-w-7xl">​​At Jai Sarda Group, our commitment to Corporate Social Responsibility (CSR) is rooted in creating lasting social impact through education, healthcare, and environmental sustainability. Through the Satyanarayan Mandir Trust, we raised ₹40 Crore in 2023 to support initiatives that empower marginalized communities. Our educational programs provide access to quality learning, while our healthcare projects improve medical access in underserved areas. We also focus on environmental sustainability through afforestation, waste management, and clean water projects. With a focus on transparency and accountability, we are dedicated to fostering a healthier, more educated, and sustainable future for all.</p>
         {/* Know More Button */}
         <Link href="/CSR">
-          <button className="mt-4 bg-navy text-white px-6 py-3 rounded-lg shadow-lg hover:bg-yellow transition-all">
+          <button className="mt-4 bg-navy text-white px-6 py-3 rounded-lg shadow-lg hover:bg-lbrown transition-all">
             Know More
           </button>
         </Link>

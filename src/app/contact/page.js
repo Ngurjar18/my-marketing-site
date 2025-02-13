@@ -23,7 +23,7 @@ export default function Contact() {
               <input type="text" placeholder="Subject" className="border-b p-2 w-full outline-none" />
             </div>
             <textarea placeholder="Your Message" className="border-b p-2 w-full outline-none h-24"></textarea>
-            <button className="bg-navy text-white px-6 py-2 rounded-lg mt-4 hover:bg-yellow">SEND</button>
+            <button className="bg-navy text-white px-6 py-2 rounded-lg mt-4 hover:bg-lbrown">SEND</button>
           </form>
         </div>
         
