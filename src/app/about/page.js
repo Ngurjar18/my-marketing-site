@@ -7,7 +7,7 @@ const sections = [
     title: "Our Humble Beginnings",
     image: "/about_us1.webp",
     text: [
-      "Our journey started in Chaumela, a small village where our founder laid the first bricks of what would become a diverse business empire. In the early years, the vision was simple—to build a sustainable business and create a better future for the people around us. This vision led us to Kota, where in 1974, we opened our first Raymond shop, marking the beginning of our presence in the apparel industry.",
+      "Our journey started in Chaumela, a small village where our founder laid the first bricks of what would become a diverse business empire. In the early years, the vision was simple, to build a sustainable business and create a better future for the people around us. This vision led us to Kota, where in 1974, we opened our first Raymond shop, marking the beginning of our presence in the apparel industry.",
       "Kota, known for its educational institutions and bustling markets, provided the perfect platform to expand our retail footprint. The opening of the Raymond shop not only made premium fabrics and clothing more accessible to the local community, but it also established us as a trusted name in the region."
     ],
   },
@@ -15,7 +15,7 @@ const sections = [
     title: "Expanding Horizons",
     image: "/abt_us_exp.jpg",
     text: ["With our success in the first Raymond store, we were determined to keep growing and offering more to our customers. In 1985, we opened another Raymond shop, this time in the heart of the city, continuing to build our reputation for high-quality apparel. The city of Kota, with its expanding business opportunities and evolving demand for quality garments, was the ideal setting to further cement our position as a leader in the local apparel market.",
-    "In 2000, we took a bold step and diversified into ethnic wear by partnering with Manyavar, one of the country’s most respected names in traditional fashion. We opened a Manyavar shop in Kota, bringing premium ethnic clothing to the region. This move was not only about meeting the growing demand for ethnic wear but also about adding depth to our portfolio, offering our customers a diverse range of choices for various occasions—from weddings and festivals to casual outings and celebrations."
+    "In 2000, we took a bold step and diversified into ethnic wear by partnering with Manyavar, one of the country’s most respected names in traditional fashion. We opened a Manyavar shop in Kota, bringing premium ethnic clothing to the region. This move was not only about meeting the growing demand for ethnic wear but also about adding depth to our portfolio, offering our customers a diverse range of choices for various occasions, from weddings and festivals to casual outings and celebrations."
     ],
   },
   {
@@ -45,7 +45,7 @@ const sections = [
     image: "/about_us6.webp",
     text: ["From our origins in a small village to becoming a diversified group with interests spanning apparel, manufacturing, investments, and sustainability, Jai Sarda Group has come a long way. But our journey doesn’t end here. We are constantly evolving, exploring new opportunities, and looking to expand into new markets. Whether it’s our continued push into the US and UK apparel markets, increasing our investment footprint, or scaling our battery recycling operations, Jai Sarda Group is committed to driving positive change in every sector we touch.",
     "As we move forward, we remain focused on our core values of quality, integrity, innovation, and sustainability. These principles have guided us throughout our journey and will continue to shape our future as we look to make an even greater impact on the world.",
-    "Join us on our journey as we continue to grow, innovate, and lead with purpose—creating value for our customers, our investors, and our communities around the globe."
+    "Join us on our journey as we continue to grow, innovate, and lead with purpose, creating value for our customers, our investors, and our communities around the globe."
     ],
   }
 ];
@@ -73,7 +73,7 @@ export default function AboutUs() {
                 items-center gap-6 bg-white p-8 rounded-lg shadow-lg`}
               >
                 {/* Image */}
-                <Image src={section.image} alt={section.title} width={400} height={300} className="rounded-lg md:w-2/5" />
+                <Image src={section.image} alt={section.title} width={400} height={300} unoptimized className="rounded-lg md:w-2/5" />
   
                 {/* Text Section with increased width */}
                 <div className={`w-full md:w-3/5 space-y-4 ${index % 2 === 0 ? 'text-left md:text-center' : 'text-right md:text-center'}`}>
