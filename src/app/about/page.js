@@ -7,7 +7,7 @@ const sections = [
     title: "Our Humble Beginnings",
     image: "/about_us1.webp",
     text: [
-      "Our journey started in Chaumela, a small village where our founder laid the first bricks of what would become a diverse business empire. In the early years, the vision was simple, to build a sustainable business and create a better future for the people around us. This vision led us to Kota, where in 1974, we opened our first Raymond shop, marking the beginning of our presence in the apparel industry.",
+      "Our journey started in Chaumahla, a small village where our founder laid the first bricks of what would become a diverse business empire. In the early years, the vision was simple, to build a sustainable business and create a better future for the people around us. This vision led us to Kota, where in 1974, we opened our first Raymond shop, marking the beginning of our presence in the apparel industry.",
       "Kota, known for its educational institutions and bustling markets, provided the perfect platform to expand our retail footprint. The opening of the Raymond shop not only made premium fabrics and clothing more accessible to the local community, but it also established us as a trusted name in the region."
     ],
   },
@@ -28,8 +28,8 @@ const sections = [
   {
     title: "Diversification into Investment",
     image: "/about_us4.jpg",
-    text: ["As our apparel business continued to thrive, we recognized the importance of diversifying and creating long-term value through strategic investments. In 2015, we established our investment arm, marking a significant milestone in the evolution of Jai Sarda Group. This arm was created with the goal of managing company assets, diversifying across various products, and maximizing returns for our stakeholders.Our mission is to provide top-quality solutions tailored to our customers' needs, ensuring their success and satisfaction.",
-    "Since then, our investment division has grown exponentially, and today, we manage assets totaling over $100 million across multiple channels, including Alternative Investment Funds (AIFs), Portfolio Management Services (PMS), and other financial products.",
+    text: ["As our apparel business continued to thrive, we recognized the importance of diversifying and creating long-term value through strategic investments. In 2015, we established our investment arm, marking a significant milestone in the evolution of Jai Sarda Group. This arm was created with the goal of managing company assets, diversifying across various products.",
+    "Since then, our investment division has grown exponentially, and today, we manage assets across multiple channels, including Alternative Investment Funds (AIFs), Portfolio Management Services (PMS), and other financial products.",
     "Our investment approach is driven by a focus on sustainable growth, risk management, and long-term value creation. By leveraging our deep industry knowledge and a team of experienced professionals, we continue to unlock new opportunities for growth and expansion, both within India and globally."
     ],
   },
@@ -44,8 +44,7 @@ const sections = [
     title: "Looking Ahead",
     image: "/about_us6.webp",
     text: ["From our origins in a small village to becoming a diversified group with interests spanning apparel, manufacturing, investments, and sustainability, Jai Sarda Group has come a long way. But our journey doesn’t end here. We are constantly evolving, exploring new opportunities, and looking to expand into new markets. Whether it’s our continued push into the US and UK apparel markets, increasing our investment footprint, or scaling our battery recycling operations, Jai Sarda Group is committed to driving positive change in every sector we touch.",
-    "As we move forward, we remain focused on our core values of quality, integrity, innovation, and sustainability. These principles have guided us throughout our journey and will continue to shape our future as we look to make an even greater impact on the world.",
-    "Join us on our journey as we continue to grow, innovate, and lead with purpose, creating value for our customers, our investors, and our communities around the globe."
+    "As we move forward, we remain focused on our core values of quality, integrity, innovation, and sustainability. These principles have guided us throughout our journey and will continue to shape our future as we look to make an even greater impact on the world."
     ],
   }
 ];
@@ -62,7 +61,7 @@ export default function AboutUs() {
           
           {/* New Introduction Paragraph */}
           <p className="text-lg text-center text-gray-700 max-w-7xl mx-auto mb-12">
-          The story of Jai Sarda Group is one of ambition, growth, and transformation—a journey that began in a small village in Rajasthan called Chaumela. From humble beginnings, we’ve steadily built a legacy of excellence across various sectors, from apparel and manufacturing to strategic investments and sustainable practices. Our evolution is rooted in a deep sense of entrepreneurship, a commitment to quality, and a drive to create long-term value for our customers, stakeholders, and the communities we serve.
+          The story of Jai Sarda Group is one of ambition, growth, and transformation, a journey that began in a small village in Rajasthan called Chaumahla. From humble beginnings, we’ve steadily built a legacy of excellence across various sectors, from apparel and manufacturing to strategic investments and sustainable practices. Our evolution is rooted in a deep sense of entrepreneurship, a commitment to quality, and a drive to create long-term value for our customers, stakeholders, and the communities we serve.
           </p>
   
           <div className="space-y-12">

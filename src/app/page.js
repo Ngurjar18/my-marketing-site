@@ -98,7 +98,7 @@ export default function HomePage() {
 
       {/* CSR Section */}
       <section id="CSR" className="min-h-[50vh] py-20 text-center bg-gray-200 flex flex-col justify-center items-center shadow-md rounded-xl mx-4 my-6 p-6">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-navy">CSR</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-navy">Corporate Social Responsibility</h2>
         <p className="text-lg text-gray-700 max-w-7xl px-4">​At Jai Sarda Group, our commitment to Corporate Social Responsibility (CSR) is rooted in creating lasting social impact through education, healthcare, and environmental sustainability. Through the Satyanarayan Mandir Trust, we raised ₹40 Crore in 2023 to support initiatives that empower marginalized communities. Our educational programs provide access to quality learning, while our healthcare projects improve medical access in underserved areas. We also focus on environmental sustainability through afforestation, waste management, and clean water projects. With a focus on transparency and accountability, we are dedicated to fostering a healthier, more educated, and sustainable future for all.</p>
         <Link href="/CSR" className="mt-4 bg-navy text-white px-6 py-3 rounded-lg shadow-lg hover:bg-lbrown">Know More</Link>
       </section>

@@ -67,8 +67,8 @@ const businesses = [
       {
         text: [
           "**The Challenge**",
-          "The climate crisis is no longer a distant threat—it is happening right now. With rising temperatures, erratic weather patterns, and increasing natural disasters like droughts, floods, and hurricanes, the world is facing an urgent need for sustainable solutions. At the heart of the solution lies the shift away from fossil fuels toward cleaner, renewable energy sources. A key enabler of this transformation is lithium-ion battery recycling.",
-          "As the demand for clean energy intensifies, the need to secure the raw materials for energy storage solutions becomes critical. Lithium-ion batteries are at the core of energy storage technologies, from electric vehicles (EVs) to grid-scale storage systems. However, as we rely more on these batteries, the dependency on mining for raw materials like lithium, cobalt, and nickel also grows—creating an environmental and ethical challenge."
+          "The climate crisis is no longer a distant threat, it is happening right now. With rising temperatures, erratic weather patterns, and increasing natural disasters like droughts, floods, and hurricanes, the world is facing an urgent need for sustainable solutions. At the heart of the solution lies the shift away from fossil fuels toward cleaner, renewable energy sources. A key enabler of this transformation is lithium-ion battery recycling.",
+          "As the demand for clean energy intensifies, the need to secure the raw materials for energy storage solutions becomes critical. Lithium-ion batteries are at the core of energy storage technologies, from electric vehicles (EVs) to grid-scale storage systems. However, as we rely more on these batteries, the dependency on mining for raw materials like lithium, cobalt, and nickel also grows, creating an environmental and ethical challenge."
         ],
         image: "/battery_1.webp"
       },
